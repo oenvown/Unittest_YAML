@@ -1,0 +1,11 @@
+config_reference: REF00001
+date: 2020-03-16
+service_port: 443
+
+source_ip:
+  - 10.0.0.1
+  - 10.0.0.2
+  - 10.0.0.3
+
+peer_certificate_check: require #choose from require/ignore
+certificate_file: my_certificate_file.crt
